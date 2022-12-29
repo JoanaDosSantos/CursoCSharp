@@ -9,7 +9,6 @@
             // CW + tab + tab = Console.WriteLine()
             // Ctrl + k + d = Formatação
 
-            //Ultima aula: Cap 3, aula 20
         }
     }
 }
