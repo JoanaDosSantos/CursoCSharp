@@ -24,8 +24,12 @@ namespace CursoCSharp.Fundamentos
 
             int a = 2;
             string b = "c";
+            
             Console.WriteLine(a);
             Console.WriteLine(b);
+
+            string novaAlteracaoTeste = "Joana Santos";
+            Console.WriteLine(novaAlteracaoTeste);
         }
     }
 }
