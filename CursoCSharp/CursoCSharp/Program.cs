@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CursoCSharp.Fundamentos;
 
-using CursoCSharp.Fundamentos;
-
-namespace CursoCSharp {
+namespace CursoCSharp
+{
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -11,6 +9,8 @@ namespace CursoCSharp {
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variáveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
                 {"Inferencia - Fundamentos", Inferencia.Executar},
+                {"Interpolação - Fundamentos", Interpolacao.Executar},
+                {"Notação ponto - Fundamentos", NotacaoPonto.Executar},
             });
 
             central.SelecionarEExecutar();
