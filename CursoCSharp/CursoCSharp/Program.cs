@@ -14,11 +14,16 @@ namespace CursoCSharp
                 {"Lendo Dados - Fundamentos", LendoDados.Executar},
                 {"Formatando Números - Fundamentos", FormatandoNumeros.Executar},
                 {"Conversões - Fundamentos", Conversoes.Executar},
+                {"Operações Aritméticas - Fundamentos", OperacoesAritmeticas.Executar},
+                {"Operações Relacionais - Fundamentos", OperacoesRelacionais.Executar},
+                {"Operações Lógicos - Fundamentos", OperacoesLogicos.Executar},
+                {"Operações de Atribuição - Fundamentos", OperacoesDeAtribuicao.Executar},
+                {"Operações de Unários - Fundamentos", OperacoesDeUnarios.Executar},
+                {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
             });
 
             central.SelecionarEExecutar();
 
-            //Ultima aula: Cap 3, aula 23
         }
     }
 }
